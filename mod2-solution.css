@@ -1,3 +1,20 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+div {
+	position: relative;
+	float: left;
+	margin: 10px;
+	width: 50%;
+	height: 200px;
+	overflow: hidden;
+
+}
+
 body {
 	background-color: whitesmoke;
 	font-size: 130%;
@@ -5,14 +22,73 @@ body {
 }
 
 p {
-	color: gray;
-	font-size: 20px;
-	width: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 33%;
+	height: 50px;
+	border: 1px solid black;
+	margin: 0;
+	float: right;
+
 }
 
-@media (min-width: 992px) {...}
 
-@media (min-width: 768px) and (max-width: 991px) {...}
+#p1 {
+	background-color: whitesmoke;
+}
 
-@media (max-width: 767px) {...}
+#p2 {
+	background-color: darkred;
+}
 
+#p3 {
+	background-color: rebeccapurple;
+}
+
+.box {
+	background-color: gray;
+	padding: 10px;
+	border: 20px black;
+	width: 30%;
+	margin-top: 5px;
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+#mid {
+	background-color: gray;
+	padding: 10px;
+	border: 20px black;
+	width: 96.5%;
+	margin-top: 5px;
+
+	}
+
+.box {
+	background-color: gray;
+	padding: 10px;
+	border: 20px black;
+	width: 47%;
+	margin-top: 5px;
+
+	}
+}
+
+@media (max-width: 767px) {
+
+
+.box {
+	background-color: gray;
+	padding: 10px;
+	border: 20px black;
+	width: 95%;
+	margin-top: 5px;
+
+	}
+}
