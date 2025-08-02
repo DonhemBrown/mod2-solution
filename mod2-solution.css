@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
 }
 
 div {
@@ -52,7 +51,7 @@ p {
 	border: 20px black;
 	width: 30%;
 	margin-top: 5px;
-
+	border: 1px solid black
 }
 
 @media (min-width: 992px) {
